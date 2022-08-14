@@ -1,0 +1,60 @@
+
+
+#iconDiv{
+    color: black;
+    text-decoration: none;
+    
+}
+#iconDiv:hover{
+    color: blue;
+}
+
+#dropDown{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+}
+
+#loginBtn{
+    text-decoration: none; color: black; font-size: 18px; font-weight: bold;
+}
+#loginBtn:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+
+#sellBtn{
+    width: 100px;
+    height: 45px;
+   background-image: url(https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linksNav{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#linksNav:hover{
+    color: aqua;
+}
+
+#cardHover{
+    width: 18rem;
+}
+#cardHover:hover{
+    width: 20rem;
+}
+
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
